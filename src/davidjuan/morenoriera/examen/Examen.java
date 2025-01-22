@@ -17,6 +17,7 @@ public class Examen {
 
 		double promedio = UtilidadesExamen.calcularPromedio(numeros);
 		int[] numsMayorPromedio = UtilidadesExamen.filtrarMayoresQuePromedio(numeros, promedio);
+		System.out.println("Los numeros que componen el array de números mayores que el promedio son:");
 		UtilidadesExamen.mostrarArray(numsMayorPromedio);	
 	}
 }
